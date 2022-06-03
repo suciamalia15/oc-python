@@ -1,10 +1,10 @@
-from product_delivery import product_delivery
+from product_delivery import ProductDelivery
 
-class MediumProduct(MediumProduct)
+class MediumProduct(ProductDelivery):
 
     def __init__(self, price: int, nama: str):
         super().__init__(price,nama)
 
     def calculate_delivery(self) -> int:
-        retrun self.get_price() + 2500
+        return self.get_price() + 2500
         

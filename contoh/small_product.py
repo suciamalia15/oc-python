@@ -1,6 +1,6 @@
-from product_delivery import ProductionDelivery
+from product_delivery import ProductDelivery
 
-class SmalldotProduct(ProductionDelivery):
+class SmallProduct(ProductDelivery):
     
     def __init__(self, price: int, name: str):
         super().__init__(price, name)
